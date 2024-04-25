@@ -1,0 +1,98 @@
+body {
+	background-color: #121111;
+	font-family: Tahoma;
+}
+
+.calculator {
+	margin-top: 10%;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+#calculator {
+	width: 250px;
+	padding: 8px 15px 30px 30px;
+	margin: 20px auto;
+	background-color: #080808;
+	border-radius: 10px;
+	border: 2px solid whitesmoke; 
+	box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 200px rgba(63, 62, 62, 0.5);
+}
+
+#display {
+	display: block;
+	margin: 10px  15px 10px 0px;
+	height: 42px;
+	width: 75%;
+	padding: 0 20px;
+	border-radius: 5px;
+	border: 3px solid #F2AA4CFF;
+	background-color: white;
+ 	font-size: 28px;
+	color: #666;
+	text-align: right;
+	font-weight: 400;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 50px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 20px;
+	border: none;
+}
+
+.calc-operator {
+	margin: 2px 2px 6px 2px;
+	color: black;
+	background-color: #9CC3D5FF;
+	font-size: 20px;
+	font-weight: 900;
+	cursor: pointer;
+	border: none;
+	
+}
+
+.Num-keys {
+	color: #181818;
+	background-color: #EBEBEB;
+	border-radius: 20px;
+	font-size: 30px; 
+	border: none;
+}
+
+.Num-keys:hover
+  {
+	  background-color: #FCF6F5FF;
+	  border: 2px solid #F2AA4CFF;
+	  
+	}
+.calc-operator:hover{
+		
+	background-color: #56A8CBFF ;
+	border: 2px solid #F2AA4CFF;	
+}
+
+#clearButton {
+	color: #FFF;
+	width: 106px;
+	background-color: #FC766AFF;
+	border: 2px solid gray; 
+	border: none;
+}
+#clearButton:hover{
+	background-color: #EE2737FF;
+	border: 2px solid #F2AA4CFF;
+}
+.evalution{
+	background-color: #97BC62FF;
+}
+.evalution:hover{
+	background-color: #2C5F2D;
+	border: 2px solid #F2AA4CFF;
+}
